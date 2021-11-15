@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+*,
+header,
+footer,
+.div1,
+.div2,
+.div3,
+.div4 {
+  font-size: 4rem;
+  font-family: Raleway, serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+header,
+footer {
+  font-family: Raleway, serif;
+  font-weight: 400;
+  text-align: center;
+  float: left;
+  height: 300px;
+  width: 100%;
+  border: 4px solid black;
+  background: indigo;
+}
+
+.div1 {
+  float: left;
+  height: 500px;
+  width: 15%;
+  border: 3px solid black;
+  background: rgb(179, 109, 109);
+}
+
+.div2 {
+  float: left;
+  height: 500px;
+  width: 25%;
+  border: 3px solid black;
+  background: rgb(137, 231, 231);
+}
+
+.div3 {
+  float: left;
+  height: 500px;
+  width: 25%;
+  border: 3px solid black;
+  background: rgb(187, 87, 187);
+}
+
+.div4 {
+  float: left;
+  height: 500px;
+  width: 35%;
+  border: 3px solid black;
+  background: rgb(68, 68, 197);
+}
+
+/* ************************TABLET SCREEN************************ */
+@media (min-width: 581px) and (max-width: 868px) {
+  html {
+    font-size: 42.5%;
+  }
+
+  header,
+  footer {
+    font-family: Raleway, serif;
+    font-weight: 400;
+    text-align: center;
+    float: left;
+    height: 300px;
+    width: 100%;
+    border: 4px solid black;
+    background: rgb(42, 172, 248);
+  }
+
+  .div1 {
+    float: left;
+    height: 500px;
+    width: 15%;
+    border: 3px solid black;
+    background: rgb(204, 64, 64);
+  }
+
+  .div2 {
+    float: left;
+    height: 500px;
+    width: 25%;
+    border: 3px solid black;
+    background: rgb(30, 112, 112);
+  }
+
+  .div3 {
+    float: left;
+    height: 500px;
+    width: 25%;
+    border: 3px solid black;
+    background: rgb(143, 41, 143);
+  }
+
+  .div4 {
+    float: left;
+    height: 500px;
+    width: 35%;
+    border: 3px solid black;
+    background: rgb(35, 35, 133);
+  }
+}
+
+/* ************************MOBILE SCREEN************************ */
+@media (max-width: 580px) {
+  html {
+    font-size: 32.5%;
+  }
+
+  header,
+  footer {
+    font-family: Raleway, serif;
+    font-weight: 400;
+    text-align: center;
+    float: left;
+    height: 300px;
+    width: 100%;
+    border: 4px solid black;
+    background: rgb(0, 116, 184);
+  }
+
+  .div1 {
+    float: left;
+    height: 500px;
+    width: 15%;
+    border: 3px solid black;
+    background: rgb(197, 0, 0);
+  }
+
+  .div2 {
+    float: left;
+    height: 500px;
+    width: 25%;
+    border: 3px solid black;
+    background: rgb(0, 187, 187);
+  }
+
+  .div3 {
+    float: left;
+    height: 500px;
+    width: 25%;
+    border: 3px solid black;
+    background: rgb(194, 0, 194);
+  }
+
+  .div4 {
+    float: left;
+    height: 500px;
+    width: 35%;
+    border: 3px solid black;
+    background: rgb(0, 0, 235);
+  }
+}
